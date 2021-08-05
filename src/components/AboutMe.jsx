@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div className="container-aboutme">
+    <div className="container-aboutme " id="aboutme">
       <div
         className="aboutme d-flex flex-row-reverse align-items-center row py-5 h-100"
         id="inicio"

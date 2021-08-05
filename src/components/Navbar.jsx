@@ -22,13 +22,18 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto text-capitalize">
             <li className="nav-item ">
-              <a className="nav-link" href="#inicio">
+              <a className="nav-link" href="#aboutmeF">
                 inicio 
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">
                 proyectos
+              </a>
+            </li>
+            <li lassName="nav-item">
+              <a className="nav-link" href="#service">
+                servicios
               </a>
             </li>
             <li lassName="nav-item">

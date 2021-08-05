@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar } from '../components/Navbar';
 import { AboutMe } from '../components/AboutMe';
 import { Projects } from '../components/Projects';
+import { Services } from '../components/Services';
 import { Testimonies } from '../components/Testimonies';
 import { Footer } from '../components/Footer';
 
@@ -15,6 +16,7 @@ export const PortafolioApp = () => {
             <Navbar />
             <AboutMe />
             <Projects />
+            <Services />
             <Testimonies />
             <Footer />
         </div>
