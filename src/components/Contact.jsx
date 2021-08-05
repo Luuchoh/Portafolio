@@ -1,6 +1,19 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_e175k4m', 'template_vvbdjnq', e.target, 'user_lw8NNKW7Lc8w3k2Xy6blB')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
   return (
     <div className="container-contact">
       <div className="contact col-11 col-md-8 col-lg-5 p-5">
@@ -9,46 +22,49 @@ export const Contact = () => {
           Si está interesado en trabajar conmigo en su próximo proyecto, no dude
           en ponerse en contacto.
         </p>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">
+        <form onSubmit={sendEmail}>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">
               Nombre completo
             </label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="name"
+              name="name"
               aria-describedby="nameHelp"
             />
           </div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">
               Correo electronnico
             </label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="email"
+              name="email"
               aria-describedby="emailHelp"
             />
-            <div id="emailHelp" class="form-text">
+            <div id="emailHelp" className="form-text">
                 Nunca compartiremos tu correo electrónico con nadie más.
             </div>
           </div>
 
-          <div class="mb-3">
-            <label for="message" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">
               Mensaje
             </label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="message"
+              name="message"
               placeholder="Cuentame que puedo hacer por ti"
             />
           </div>
           
-          <button type="submit" class="btn btn-warning w-100">
+          <button type="submit" className="btn btn-warning w-100">
             Submit
           </button>
         </form>

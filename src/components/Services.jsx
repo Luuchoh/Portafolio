@@ -17,7 +17,7 @@ export const Services = () => {
               </ul>
               <a className="btn btn-dark" href="/">
                     Ver servicios de marca
-                    <i class="bi bi-caret-right-fill"></i>
+                    <i className="bi bi-caret-right-fill"></i>
                 </a>
           </div>
           <div className="col-12 col-md-6 col-lg-4 mt-3">
@@ -29,7 +29,7 @@ export const Services = () => {
               </ul>
               <a className="btn btn-dark" href="/">
                     Ver servicios de marca
-                    <i class="bi bi-caret-right-fill"></i>
+                    <i className="bi bi-caret-right-fill"></i>
                 </a>
           </div>
           <div className="col-12 col-md-6 col-lg-4 mt-3">
@@ -40,7 +40,7 @@ export const Services = () => {
               </ul>
                 <a className="btn btn-dark" href="/">
                     Ver servicios de marca
-                    <i class="bi bi-caret-right-fill"></i>
+                    <i className="bi bi-caret-right-fill"></i>
                 </a>
           </div>
         </div>

@@ -29,7 +29,7 @@ export const AboutMe = () => {
             </p>
           </div>
           <div className="arrow pt-5">
-            <i class="bi bi-arrow-bar-down w-25"></i>
+            <i className="bi bi-arrow-bar-down w-25"></i>
           </div>
         </div>
       </div>

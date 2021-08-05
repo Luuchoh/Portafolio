@@ -192,8 +192,30 @@
 }
 .social-icon{
     color: var(--color-gray);
+    border-radius: 50%;
+    transition: all 0.2s;
 }
 
+.github:hover,
+.github:focus{
+    background-color: var(--color-white);
+    color: #171515;
+}
+.twitch:hover,
+.twitch:focus{
+    background-color: var(--color-white);
+    color: #6441A5;
+}
+.twitter:hover,
+.twitter:focus{
+    background-color: var(--color-white);
+    color: #00ACEE;
+}
+.instagram:hover,
+.instagram:focus{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);;
+    color: var(--color-white);
+}
 
 @media (min-width: 728px) {
     .navbar .logo{
