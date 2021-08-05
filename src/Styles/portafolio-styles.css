@@ -92,6 +92,14 @@
     margin: auto;
 }
 
+.service ul{
+    list-style: none;
+    padding: 0;
+}
+
+.service ul li{
+    padding: 3px 0;
+}
 /* ---------------------- */
 /* COMPONENTE TESTIMONIES */
 /* ---------------------- */
