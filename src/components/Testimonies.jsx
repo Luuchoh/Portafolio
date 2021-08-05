@@ -4,7 +4,7 @@ export const Testimonies = () => {
   return (
     <div className="container-testimonies">
       <div className="testimonies">
-        <h2 className="text-capitalize fw-bold">testimonios</h2>
+        <h2 className="text-capitalize fw-bold mb-5">testimonios</h2>
         <div className="row">
           <div className="col-12 col-md-6 col-lg-4">
               <div className="t-name">

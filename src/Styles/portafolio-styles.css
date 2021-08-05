@@ -132,6 +132,45 @@
 /* COMPONENTE CONTACT */
 /* ------------------ */
 
+.container-contact{
+    background: rgb(107,107,255);
+    background: linear-gradient(135deg, rgba(107,107,255,1) 0%, rgba(48,48,209,1) 42%, rgba(9,9,121,1) 100%);
+    padding: 80px 0;
+
+}
+
+.contact{
+    margin: auto;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+.contact form textarea{
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.contact form textarea::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: inherit;
+
+}
+
+.contact form textarea::-webkit-scrollbar:vertical {
+    width:8px;
+}
+
+.contact form textarea::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.contact form textarea::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: inherit;
+}
+
 
 /* ----------------- */
 /* COMPONENTE FOOTER */
@@ -161,7 +200,14 @@
         width: 45%;
         height: 100%;
     }
-    
+
+    /* ------------------ */
+    /* COMPONENTE CONTACT */
+    /* ------------------ */
+
+    .contact form textarea{
+        height: 250px;
+    }
 }
 
 
