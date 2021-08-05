@@ -19,7 +19,7 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse px-3" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto text-capitalize">
             <li className="nav-item ">
               <a className="nav-link" href="#aboutmeF">

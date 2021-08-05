@@ -14,7 +14,7 @@ export const AboutMe = () => {
             alt="Foto de perfil"
           />
         </div>
-        <div className="col-lg-6 col-md-12 w-100 h-100">
+        <div className="col-lg-6 col-md-12 ">
           <div className="py-2">
             <h1 className="h1">¡Hola a todos!</h1>
             <h2 className="h1">
