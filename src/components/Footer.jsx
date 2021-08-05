@@ -30,16 +30,16 @@ export const Footer = () => {
 
           <div className="container-social col-12 col-lg-2 d-flex align-items-center">
             <div className="social m-auto mt-3 m-lg-0 ">
-              <a className="social-icon github fs-4 px-2 " href="">
+              <a className="social-icon github fs-4 px-2 " href="https://github.com/Luuchoh">
                 <i className="bi bi-github"></i>
               </a>
-              <a className="social-icon twitch fs-4 px-2" href="">
+              <a className="social-icon twitch fs-4 px-2" href="https://www.twitch.tv/luuchoh">
                 <i className="bi bi-twitch"></i>
               </a>
-              <a className="social-icon twitter fs-4 px-2" href="">
+              <a className="social-icon twitter fs-4 px-2" href="https://twitter.com/LuisHern_ndez">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a className="social-icon instagram fs-4 px-2" href="">
+              <a className="social-icon instagram fs-4 px-2" href="https://www.instagram.com/luishern_ndez/">
                 <i className="bi bi-instagram"></i>
               </a>
             </div>

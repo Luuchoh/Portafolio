@@ -28,10 +28,10 @@ export const Projects = () => {
               </p>
 
               <div className="pt-4">
-                <a className="btn btn-warning mr-3" href="">
+                <a className="btn btn-warning mr-3" href="https://github.com/TregRek/grupo_2_todo_aviador">
                   Ver proyecto completo
                 </a>
-                <a className="btn btn-outline-warning" href="">
+                <a className="btn btn-outline-warning" href="https://github.com/TregRek/grupo_2_todo_aviador">
                   Ver código
                 </a>
               </div>
@@ -51,10 +51,10 @@ export const Projects = () => {
                 </p>
 
                 <div className="pt-4">
-                  <a className="btn btn-warning mr-3" href="">
+                  <a className="btn btn-warning mr-3" href="https://github.com/TregRek/grupo_2_todo_aviador">
                     Ver proyecto completo
                   </a>
-                  <a className="btn btn-outline-warning" href="">
+                  <a className="btn btn-outline-warning" href="https://github.com/TregRek/grupo_2_todo_aviador">
                     Ver código
                   </a>
                 </div>
@@ -73,10 +73,10 @@ export const Projects = () => {
                 </p>
 
                 <div className="pt-4">
-                  <a className="btn btn-warning mr-3" href="">
+                  <a className="btn btn-warning mr-3" href="https://github.com/TregRek/grupo_2_todo_aviador">
                     Ver proyecto completo
                   </a>
-                  <a className="btn btn-outline-warning" href="">
+                  <a className="btn btn-outline-warning" href="https://github.com/TregRek/grupo_2_todo_aviador">
                     Ver código
                   </a>
                 </div>
